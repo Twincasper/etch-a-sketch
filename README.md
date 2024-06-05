@@ -1,0 +1,1 @@
+This is a project that tasked me with creating an etch a sketch by using DOM manipulation, rather than manually creating all of the html to do so.
