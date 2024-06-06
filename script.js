@@ -15,9 +15,10 @@ for (let i = 0; i < rows; i++) {
         const cell = document.createElement('div');
         cell.classList.add('cell');
         row.appendChild(cell);
+
+        cell.addEventListener('mouseover', () => {
+            cell.style.backgroundColor = 'pink';
+        });
     }
 }
 
-cell.addEventListener('mouseover', () => {
-    cell.style.backgroundColor = 'pink';
-});
