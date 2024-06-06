@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Etch a sketch</title>
 </head>
 <body>
     <h1>Etch a sketch</h1>
+    <h2>Controls</h2>
+    <div id="controls">
+      <input type="number" id="gridSize" min="1" max="100" value="16">
+      <button id="createGrid">Create grid</button>
+      <button id="clearGrid">Clear grid</button>
+    </div>
     <div class="container"></div>
 </body>
 </html>
